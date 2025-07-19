@@ -108,5 +108,6 @@ local TextBox = mitrix:CreaTextBox({
   Name = "speed box",
   callback = 999999999999999999, 1,function(x)
 	    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = x
-end)
+end,
+})
   
