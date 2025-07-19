@@ -9,7 +9,7 @@ local Window = Rayfield:CreateWindow({
 		FolderName = "mitrix gui",
 		FileName = "mitrix.cheats v2"
 	},
-	KeySystem = true,
+	KeySystem = falce,
 	KeySettings = {
 	Title = "mitrix cheats",
 	Subtitle = "yy228xxt",
@@ -103,11 +103,3 @@ local Button = comb:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/cfsmi2/c00lguiv1/refs/heads/main/Main.lua", true))()
 end,
 })
-
-local TextBox = mitrix:CreaTextBox({
-  Name = "speed box",
-  callback = 999999999999999999, 1,function(x)
-	    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = x
-end,
-})
-  
