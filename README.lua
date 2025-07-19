@@ -11,9 +11,9 @@ local Window = Rayfield:CreateWindow({
 	},
 	KeySystem = true,
 	KeySettings = {
-		Title = "mitrix cheats",
-		Subtitle = "yy228xxt",
-		SaveKey = true,
+	Title = "mitrix cheats",
+	Subtitle = "yy228xxt",
+	SaveKey = true,
 	}
 })
 Rayfield:Notify("Loaded!", "hi", 4483362458) -- Notfication -- Title, Content, Image
