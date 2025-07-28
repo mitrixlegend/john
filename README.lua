@@ -103,3 +103,10 @@ local Button = comb:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/cfsmi2/c00lguiv1/refs/heads/main/Main.lua", true))()
 end,
 })
+
+local Button = comb:CreateButton({
+ Name = "grab knife v3",
+ Callback = function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/mitrixlegend/b179f3885a4171a7c905b18472636bff/raw/6166d62b3987fbfb0af60872ec9f19ab3741a4e2/gistfile1.txt"))()
+end,
+})
